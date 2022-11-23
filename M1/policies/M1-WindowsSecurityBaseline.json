@@ -1,0 +1,91 @@
+{
+    "displayName":  "M1 - Windows Security Baseline (for use with ACSC Windows Hardening Guidelines)",
+    "description":  "",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "TemplateDisplayName":  "M1 - MDM Security Baseline for Windows 10 and later for November 2021",
+    "TemplateId":  "034ccd46-190c-4afc-adf1-ad7cc11262eb",
+    "versionInfo":  "November 2021",
+    "settingsDelta":  [
+        {
+            "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+            "id":  "ce41d3e8-53af-44c6-845d-1ff65299f72e",
+            "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_internetExplorerInternetZoneJavaPermissions",
+            "valueJson":  "\"disableJava\"",
+            "value":  "disableJava"
+        },
+
+{
+            "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+            "id":  "2f2d7869-f045-4378-bbfa-627eed0c8537",
+            "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_internetExplorerIntranetZoneJavaPermissions",
+            "valueJson":  "\"highSafety\"",
+            "value":  "highSafety"
+        },
+
+{
+            "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+            "id":  "e72049bd-4ca3-4a1d-b1c6-c7a2818a4fd6",
+            "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_internetExplorerLocalMachineZoneJavaPermissions",
+            "valueJson":  "\"disableJava\"",
+            "value":  "disableJava"
+        },
+
+{
+            "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+            "id":  "311f7ef9-2774-4eef-91d5-21c611530d67",
+            "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_internetExplorerLockedDownIntranetZoneJavaPermissions",
+            "valueJson":  "\"disableJava\"",
+            "value":  "disableJava"
+        },
+
+{
+            "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+            "id":  "67ade93c-e616-4a7f-91c1-6b2f3373dd1d",
+            "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_internetExplorerLockedDownLocalMachineZoneJavaPermissions",
+            "valueJson":  "\"disableJava\"",
+            "value":  "disableJava"
+        },
+
+        {
+            "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+            "id":  "f7bcf72c-62e2-42e0-b5dc-1ad589b039a8",
+            "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_internetExplorerLockedDownRestrictedZoneJavaPermissions",
+            "valueJson":  "\"disableJava\"",
+            "value":  "disableJava"
+        },
+        {
+            "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+            "id":  "40f6bb36-fa1c-4a25-aacc-92c89e76ea1c",
+            "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_internetExplorerLockedDownTrustedZoneJavaPermissions",
+            "valueJson":  "\"disableJava\"",
+            "value":  "disableJava"
+        },
+
+       {
+            "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+            "id":  "6650f931-62a2-473e-baec-6ff01bbaefb1",
+            "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_internetExplorerTrustedZoneJavaPermissions",
+            "valueJson":  "\"highSafety\"",
+            "value":  "highSafety"
+        },
+
+        {
+            "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+            "id":  "b334b5ea-0abe-4b34-aa2f-a297569dfaf9",
+            "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_internetExplorerRestrictedZoneScriptingOfJavaApplets",
+            "valueJson":  "\"disable\"",
+            "value":  "disable"
+        },
+
+        {
+            "@odata.type":  "#microsoft.graph.deviceManagementStringSettingInstance",
+            "id":  "ef84fa2d-e976-4429-8577-e704f35f2604",
+            "definitionId":  "deviceConfiguration--windows10GeneralConfiguration_internetExplorerRestrictedZoneJavaPermissions",
+            "valueJson":  "\"disableJava\"",
+            "value":  "disableJava"
+        }
+
+                      ]
+}

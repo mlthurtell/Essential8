@@ -1,0 +1,25 @@
+{
+    "id":  "f3acfacc-2258-41b5-b2a5-5da7bb7accc7",
+    "name":  "M1-Configure Office Macro Settings",
+    "description":  "",
+    "platforms":  "windows10",
+    "technologies":  "mdm",
+    "settings":  [
+        {
+            "settingInstance":  {
+                                    "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                    "settingDefinitionId":  "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_security~l_trustcenter_l_applymacrosecuritysettings",
+                                    "settingInstanceTemplateReference":  null,
+                                    "choiceSettingValue":  {
+                                                               "children":  [
+
+                                                                            ],
+                                                               "settingValueTemplateReference":  null,
+                                                               "value":  "user_vendor_msft_policy_config_outlk16v2~policy~l_microsoftofficeoutlook~l_security~l_trustcenter_l_applymacrosecuritysettings_1"
+                                                           }
+                                }
+        }
+
+   
+                 ]
+}

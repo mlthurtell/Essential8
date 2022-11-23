@@ -1,0 +1,49 @@
+{
+    "id":  "c0cd821a-fb8a-4713-bffa-f2729d4fffbc",
+    "name":  "M1 - ACSC Edge Hardening Guidelines",
+    "description":  "",
+    "platforms":  "windows10",
+    "technologies":  "mdm",
+    "settings":  [
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_defender_enablenetworkprotection",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "children":  [
+
+                                                                                         ],
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_defender_enablenetworkprotection_1"
+                                                                        }
+                                             }
+                     },
+                     {
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_adssettingforintrusiveadssites",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_adssettingforintrusiveadssites_adssettingforintrusiveadssites",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "choiceSettingValue":  {
+                                                                                                                            "children":  [
+
+                                                                                                                                         ],
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_adssettingforintrusiveadssites_adssettingforintrusiveadssites_2"
+                                                                                                                        }
+                                                                                             }
+                                                                                         ],
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_microsoft_edgev78diff~policy~microsoft_edge_adssettingforintrusiveadssites_1"
+                                                                        }
+                                             }
+                     }
+                                          
+                 ]
+}
