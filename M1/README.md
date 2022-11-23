@@ -10,7 +10,7 @@ While the intent of these policies is to assist in an organisations compliance e
 ## What's included?
 
 ### Windows
-There are four Windows hardening policies and a script contained within this repository.
+There is one Windows hardening policy and a script contained within this repository.
 1. [Windows Security Baseline (for use with ACSC Windows Hardening Guidelines)](policies/Windows%20Security%20Baseline%20(for%20use%20with%20ACSC%20Windows%20Hardening%20Guidelines).json)
     -  Microsoft provides a Windows Security Baseline, which is comprised of groups of pre-configured Windows settings that help you apply and enforce granular security settings that are recommended by the relevant security teams within Microsoft. The [Microsoft Security Baseline can be deployed with Intune](https://docs.microsoft.com/en-us/mem/intune/protect/security-baselines).
     - This Microsoft Security Baseline has been modified so that its settings do not conflict with those of the ACSC Windows Hardening Guidelines. All non-conflicting settings have been left as-is.
