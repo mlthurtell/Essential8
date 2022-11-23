@@ -1,4 +1,6 @@
-# Intune ACSC Windows Hardening Guidelines
+## Maturity Level 2 Policies are still currently under-construction
+
+# Granular Intune ACSC Windows Hardening Guidelines
 
 These Microsoft Intune policies were put together to help organisations comply with the [Australian Cyber Security Centre's (ACSC) Windows 10 Hardening Guidance](https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations). These policies were originally provided by the ACSC as Group Policy Objects. This repository will provide exports of Intune policies that organisations will be able to import into their Intune tenant for deployment to their Windows devices. 
 
